@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Product.css"
-import firstwebsite from "../img/firstwebsite.jpg"
-import secondwebsite from "../img/secondwebsite.jpg"
-import thirdwebsite from "../img/thirdwebsite.jpg"
+import firstwebsites from "../img/firstwebsites.png"
+import secondwebsites from "../img/secondwebsites.png"
+import thirdwebsites from "../img/thirdwebsites.png"
 import fourthwebsite from "../img/fourthwebsite.jpg"
 import fifthwebsite from "../img/fifthwebsite.jpg"
 import sixthwebsite from "../img/sixthwebsite.jpg"
@@ -18,8 +18,8 @@ const Product = ({img, link}) => {
                   <div className='p-circle'></div>
                   <div className='p-circle'></div>
             </div>
-            <a href={link} target='_blank' rel='noreferrer'>
-                 <img src={firstwebsite} alt=' ' className='p-img'/>
+            <a href="https://shoelanding-page.vercel.app/" target='_blank' rel='noreferrer'>
+                 <img src={firstwebsites} alt=' ' className='p-img'/>
              </a>
       
         </div>
@@ -31,8 +31,8 @@ const Product = ({img, link}) => {
                   <div className='p-circle'></div>
                   <div className='p-circle'></div>
             </div>
-            <a href={link} target='_blank' rel='noreferrer'>
-                 <img src={secondwebsite} alt=' ' className='p-img'/>
+            <a href="https://testar-xi.vercel.app/" target='_blank' rel='noreferrer'>
+                 <img src={secondwebsites} alt=' ' className='p-img'/>
              </a>
       
         </div>
@@ -43,8 +43,8 @@ const Product = ({img, link}) => {
                   <div className='p-circle'></div>
                   <div className='p-circle'></div>
             </div>
-            <a href={link} target='_blank' rel='noreferrer'>
-                 <img src={thirdwebsite} alt=' ' className='p-img'/>
+            <a href="https://omnifood-rho.vercel.app/" target='_blank' rel='noreferrer'>
+                 <img src={thirdwebsites} alt=' ' className='p-img'/>
              </a>
       
         </div>
