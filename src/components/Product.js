@@ -5,7 +5,7 @@ import secondwebsites from "../img/secondwebsites.png"
 import thirdwebsites from "../img/thirdwebsites.png"
 import fourthwebsite from "../img/fourthwebsite.png"
 import fifthwebsite from "../img/fifthwebsite.png"
-import sixthwebsite from "../img/sixthwebsite.jpg"
+import sixthwebsite from "../img/sixthwebsite.png"
 
 const Product = ({img, link}) => {
   return (
@@ -79,7 +79,7 @@ const Product = ({img, link}) => {
                   <div className='p-circle'></div>
                   <div className='p-circle'></div>
             </div>
-            <a href={link} target='_blank' rel='noreferrer'>
+            <a href="https://vercel.com/olathegreat/oneder" target='_blank' rel='noreferrer'>
                  <img src={sixthwebsite} alt=' ' className='p-img'/>
              </a>
       
