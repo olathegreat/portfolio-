@@ -3,8 +3,8 @@ import "./Product.css"
 import firstwebsites from "../img/firstwebsites.png"
 import secondwebsites from "../img/secondwebsites.png"
 import thirdwebsites from "../img/thirdwebsites.png"
-import fourthwebsite from "../img/fourthwebsite.jpg"
-import fifthwebsite from "../img/fifthwebsite.jpg"
+import fourthwebsite from "../img/fourthwebsite.png"
+import fifthwebsite from "../img/fifthwebsite.png"
 import sixthwebsite from "../img/sixthwebsite.jpg"
 
 const Product = ({img, link}) => {
@@ -55,7 +55,7 @@ const Product = ({img, link}) => {
                   <div className='p-circle'></div>
                   <div className='p-circle'></div>
             </div>
-            <a href={link} target='_blank' rel='noreferrer'>
+            <a href="https://coinsearch.vercel.app/" target='_blank' rel='noreferrer'>
                  <img src={fourthwebsite} alt=' ' className='p-img'/>
              </a>
       
@@ -67,7 +67,7 @@ const Product = ({img, link}) => {
                   <div className='p-circle'></div>
                   <div className='p-circle'></div>
             </div>
-            <a href={link} target='_blank' rel='noreferrer'>
+            <a href="https://imagesearcher.vercel.app/" target='_blank' rel='noreferrer'>
                  <img src={fifthwebsite} alt=' ' className='p-img'/>
              </a>
       
