@@ -84,5 +84,8 @@ p{
     .col-sm-6 img{
         align-items: center;
     }
+    *{
+        font-size: 1em;
+    }
 
 }

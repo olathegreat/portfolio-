@@ -37,7 +37,7 @@ const Contact = () => {
                 <div className='c-info'>
                     <div className='c-info-item'>
                         <i className='icofont-phone'></i>
-                        +123 456 789
+                        +2348169336518
                     </div>
 
                     <div className='c-info-item'>

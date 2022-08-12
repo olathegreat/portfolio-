@@ -38,4 +38,7 @@
     .pl-desc{
         display: none;
     }
+    *{
+        font-size: 1em;
+    }
 }

@@ -15,7 +15,7 @@ const Toggle = () => {
     <div className='t'>
       <i className='icofont-adjust day'></i>
       <i className='icofont-moon night'></i>
-      <button className='t-button'style={{left:theme.state.darkmode ? 0: 25}} onClick={handleClick}></button>
+      <button className='t-button'style={{left:theme.state.darkmode ? 0: 30}} onClick={handleClick}></button>
     </div>
   );
 }

@@ -45,10 +45,9 @@
 
 }
 @keyframes move{
-    25%{transform: translateY(-50px)}
-    50%{transform: translateY(-100px)}
-    75%{transform: translateY(-150px)}
-    100%{transform: translateY(-200px)}
+    100%{transform: translateY(-50px)}
+    
+
 }
 .i-description{
     font-size: 25px;
@@ -73,6 +72,7 @@
 @media screen and (max-width:480px){
     .i{
         flex-direction: column;
+        font-size: .5em;
     }
     .i-left-wrapper{
         padding: 10px;
@@ -84,4 +84,10 @@
     .i-desc{
         display: none;
     }
+ 
+    *{
+        font-size: 1em;
+    }
+        
+    
 }

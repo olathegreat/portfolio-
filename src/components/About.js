@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css"
-import Photographer from "../img/Photographer.png"
+import laptop from "../img/laptop.jpg"
 import award from "../img/award.png"
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
         <div className='a-left'>
            <div className='a-card bg'></div>
            <div className='a-card'>
-               <img alt='' className='a-img' src={Photographer}/>
+               <img alt='' className='a-img' src={laptop}/>
            </div>
         </div>
         <div className='a-right'>
@@ -26,7 +26,7 @@ const About = () => {
                my clients. Using research and creativity and the foundation for all task to be
                performed with ample knowledge of design softwares and kit.
            </p>
-           <div className='a-award'>
+           {/* <div className='a-award'>
                <img src={award} className="a-award-img"/>
                <div className='a-award-text'>
                <h4 className='a-award-title'>
@@ -39,7 +39,7 @@ const About = () => {
                </p>
                </div>
               
-           </div>
+           </div> */}
         </div>
       
     </div>
