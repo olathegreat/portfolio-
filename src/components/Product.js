@@ -79,7 +79,7 @@ const Product = ({img, link}) => {
                   <div className='p-circle'></div>
                   <div className='p-circle'></div>
             </div>
-            <a href="https://vercel.com/olathegreat/oneder" target='_blank' rel='noreferrer'>
+            <a href="https://druppella-olathegreat.vercel.app/" target='_blank' rel='noreferrer'>
                  <img src={sixthwebsite} alt=' ' className='p-img'/>
              </a>
       
