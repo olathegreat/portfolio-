@@ -1,6 +1,6 @@
 import React from 'react';
 import "./intro.css"
-import me from "../img/me-compressed.jpg"
+import me from "../img/mypic.png"
 
 const Intro = () => {
   return (
@@ -25,8 +25,10 @@ const Intro = () => {
           </div>
       </div>
       <div className='i-right'>
-          <div className='i-bg'></div>
+       <div className='i-bg'></div>
+          
         <img alt='' className='i-img' src={me}></img>
+        
       </div>
     </div>
   );

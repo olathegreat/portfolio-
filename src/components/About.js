@@ -1,7 +1,8 @@
 import React from 'react';
 import "./About.css"
 import laptop from "../img/laptop-min.jpg"
-import award from "../img/award.png"
+import resume from "../img/resume.pdf"
+import adobe from "../img/adobe.png"
 const About = () => {
   return (
     <div className='a'>
@@ -26,20 +27,20 @@ const About = () => {
                my clients. Using research and creativity and the foundation for all task to be
                performed with ample knowledge of design softwares and kit.
            </p>
-           {/* <div className='a-award'>
-               <img src={award} className="a-award-img"/>
-               <div className='a-award-text'>
-               <h4 className='a-award-title'>
-                   International Photographer of the year
-               </h4>
-               <p className='a-award-description'>
-                   This award is a yearly award given to the international Photographer with
-                   a trail blazing impact
+            <div className='a-award'>
+                <img src={adobe} className="a-award-img"/>
+                <div className='a-award-text'>
+                <a  href={resume} className='resume'>
+                    Click  to view my resume
+                </a>
+                {/* <p className='a-award-description'>
+                    This award is a yearly award given to the international Photographer with
+                    a trail blazing impact
 
-               </p>
-               </div>
-              
-           </div> */}
+                </p> */}
+                </div>
+                
+            </div>
         </div>
       
     </div>
