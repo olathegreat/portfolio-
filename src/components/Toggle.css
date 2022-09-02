@@ -5,7 +5,7 @@
     color: rgb(2, 34, 64);
 }
 i{
-    font-size: 16px;
+    font-size: 20px;
 }
 .t{
     width: 50px;
@@ -22,8 +22,8 @@ i{
     justify-content: space-between;
 }
 .t-button{
-    width: 10px;
-    height: 10px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     background-color: #999;
     position: absolute;
@@ -31,9 +31,14 @@ i{
 }
 
 @media screen and (max-width:480px){
+    
     .t{
     display: flex;
-    flex-wrap: wrap;
+    
     overflow: hidden;
+    }
+    .t-button{
+        margin-top: 0;
+        
     }
 }
